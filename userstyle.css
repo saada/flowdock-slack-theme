@@ -11,7 +11,7 @@ CORE COLORS
 #38978D
 #EB4D5C
 */
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Mono');
 
 body {
   font-family: Lato, sans-serif !important;
@@ -53,7 +53,7 @@ nav .fa {
   color: white !important;
 }
 
-footer {
+.nav-footer {
   background-color: #3E313C !important;
 }
 
@@ -70,5 +70,5 @@ footer {
 
 /* CODE */
 code, pre, kbd, pre, samp {
-  font-family: "Fira Code Retina" !important;
+  font-family: "Roboto Mono" !important;
 }
