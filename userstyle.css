@@ -1,0 +1,74 @@
+/*
+CORE COLORS
+-----------
+
+#4D394B
+#3E313C
+#4C9689
+#FFFFFF
+#3E313C
+#FFFFFF
+#38978D
+#EB4D5C
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  font-family: Lato, sans-serif !important;
+}
+
+/* Tabs */
+nav {
+  background: #4D394B !important;
+}
+
+.tab.current > .tab-link {
+  background-color: #4C9689 !important;
+}
+
+.tab.current > .tab-link > .tab-name {
+  color: white !important;
+}
+
+.tab:hover {
+  /*color: white !important;*/
+  background-color: #3E313C !important;
+}
+
+.tab-name {
+  background-color: transparent !important;
+  color: lightgray !important;
+}
+
+.org-name {
+  font-weight: bold !important;
+  color: lightgray !important;
+}
+
+header .user-menu-name {
+  color: white !important;
+}
+
+nav .fa {
+  color: white !important;
+}
+
+footer {
+  background-color: #3E313C !important;
+}
+
+/* CHAT */
+/*
+.chat-message {
+  background-color: chocolate !important;
+  color: white !important;
+}
+
+.msg-body {
+  font-family: Fira Code !important;
+}*/
+
+/* CODE */
+code, pre, kbd, pre, samp {
+  font-family: "Fira Code Retina" !important;
+}
