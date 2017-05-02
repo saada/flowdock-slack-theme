@@ -57,6 +57,10 @@ nav .fa {
   background-color: #3E313C !important;
 }
 
+.tab-list-shadow {
+  background-image: none !important;
+}
+
 /* CHAT */
 /*
 .chat-message {
