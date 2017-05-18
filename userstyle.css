@@ -8,6 +8,21 @@ body {
   font-family: Lato, sans-serif !important;
 }
 
+/* Toolbar */
+#toolbar {
+  background-color: #FFFFFF !important;
+  border-bottom: none !important;
+}
+
+.right-item-group::before {
+  background: none !important;
+}
+
+.right-item-group li {
+  background: none !important;
+  border: none !important;
+}
+
 /* Tabs */
 nav {
   background: #4D394B !important;
@@ -42,6 +57,14 @@ header .user-menu-name {
 
 nav .fa {
   color: white !important;
+}
+
+nav .external-link {
+  background-color: #4D394B !important;
+}
+
+.nav-header {
+  border-bottom: none !important;
 }
 
 .nav-footer {
